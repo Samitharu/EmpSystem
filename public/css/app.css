@@ -1,0 +1,61 @@
+nav {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+  .logo {
+    float: left;
+    padding: 15px;
+    color: white;
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .nav-links li {
+    float: left;
+  }
+  
+  .nav-links a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    background-color: #865286;
+  }
+  
+
+
+  body {
+    background: linear-gradient(135deg, #a3b9f8, #c7a9e4); /* Lighter gradient */
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Optional: Include if you want a consistent font */
+}
+.container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    margin-top: 80px; /* Adjust based on navbar height */
+}
+h1 {
+    color: #6e4e92;
+    font-size: 2rem; /* Adjust size if needed */
+}
+p {
+    color: #555;
+    font-size: 1.2rem;
+}
+  
